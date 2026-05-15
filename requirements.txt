@@ -1,0 +1,6 @@
+streamlit
+plotly
+pandas
+fpdf
+plyer
+opencv-python-headless
