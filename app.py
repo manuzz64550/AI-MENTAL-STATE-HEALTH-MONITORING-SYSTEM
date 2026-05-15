@@ -1,5 +1,12 @@
 import os
 os.environ['QT_QPA_PLATFORM'] = 'offscreen'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
+try:
+    import cv2
+except ImportError:
+    # This force-installs the graphics bridge if it's missing
+    os.system('pip install opencv-contrib-python-headless')
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
