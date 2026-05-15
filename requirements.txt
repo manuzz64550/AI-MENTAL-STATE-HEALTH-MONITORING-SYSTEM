@@ -8,3 +8,5 @@ librosa
 scikit-learn
 joblib
 tensorflow
+deepface
+tf-keras
