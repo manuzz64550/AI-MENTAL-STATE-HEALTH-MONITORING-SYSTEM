@@ -4,3 +4,7 @@ pandas
 fpdf
 plyer
 opencv-python-headless
+librosa
+scikit-learn
+joblib
+tensorflow
