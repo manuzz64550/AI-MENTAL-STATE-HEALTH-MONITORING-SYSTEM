@@ -1,6 +1,5 @@
 import os
 os.environ['QT_QPA_PLATFORM'] = 'offscreen'
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
